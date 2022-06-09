@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchUsers } from "./redux/Users/UsersAction";
+import { fetchUsers } from "../../redux/Users/UsersAction";
 
 const UserContainer = () => {
 	const userData = useSelector((state) => state.user);

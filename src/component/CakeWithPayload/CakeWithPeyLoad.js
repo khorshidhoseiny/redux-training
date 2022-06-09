@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { buyCake } from "./redux/cake/CakeActions";
+import { buyCake } from "../../redux/cake/CakeActions";
 
 const CakeWithPeyLoad = () => {
 	
